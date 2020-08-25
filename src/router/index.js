@@ -2,10 +2,11 @@
  * @Descripttion: 
  * @version: 
  * @Author: sueRimn
- * @Date: 2020-06-30 17:15:01
+ * @Date: 2020-07-31 13:31:34
  * @LastEditors: sueRimn
- * @LastEditTime: 2020-07-31 11:33:52
+ * @LastEditTime: 2020-08-05 11:26:42
  */
+
 import Vue from "vue";
 import Router from "vue-router";
 const routerPush = Router.prototype.push
@@ -21,7 +22,18 @@ const router = new Router({
       redirect: {
         name: 'Home'
       }
+    },
+    {
+      path: '/home',
+      name: 'Home',
+      component: () => import('@/page/home/index')
+    },
+    {
+      path: '/header',
+      name: 'Header',
+      component: () => import('@/components/header')
     }
+
   ]
 });
 

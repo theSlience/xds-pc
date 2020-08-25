@@ -4,7 +4,7 @@
  * @Author: sueRimn
  * @Date: 2020-06-30 17:15:00
  * @LastEditors: sueRimn
- * @LastEditTime: 2020-07-21 14:02:25
+ * @LastEditTime: 2020-08-03 15:56:31
  */
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
@@ -16,7 +16,7 @@ import store from "./store";
 import router from "./router";
 import Router from "vue-router";
 import ElementUI from "element-ui";
-import './assets/icon/iconfont.css';
+// import './assets/icon/iconfont.css';
 // 引入node自带的querystring模块，处理post提交表单数据
 import "element-ui/lib/theme-chalk/index.css";
 
@@ -26,7 +26,7 @@ import NProgress from "nprogress";
 import "nprogress/nprogress.css";
 
 // 轮播图
-import 'swiper/dist/css/swiper.css'
+// import 'swiper/dist/css/swiper.css'
 // import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 // 注入适配组件

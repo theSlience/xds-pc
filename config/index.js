@@ -4,7 +4,7 @@
  * @Author: sueRimn
  * @Date: 2020-06-30 17:10:22
  * @LastEditors: sueRimn
- * @LastEditTime: 2020-07-30 18:55:08
+ * @LastEditTime: 2020-08-03 15:53:47
  */ 
 
 "use strict";
@@ -37,7 +37,7 @@ module.exports = {
     // Various Dev Server settings
     // host: "47.114.189.204", 
     host: "192.168.1.122",
-    port: 8082, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     errorOverlay: true,
     autoOpenBrowser: true,
     notifyOnErrors: true,
